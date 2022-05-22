@@ -118,4 +118,30 @@ body {
 .navigation .menu li a {
   position: relative;
   display: flex;
+  text-decoration: none;
+  color: #111;
+  border-radius: 10px;
+}
+
+.navigation .menu li a:hover {
+  background: #0084ff;
+  color: #fff;
+}
+.navigation .menu li a .icon {
+  position: relative;
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.navigation .menu li a .text {
+  position: relative;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25em;
 }
