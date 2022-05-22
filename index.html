@@ -10,6 +10,19 @@
   <body>
     <div class="navigation">
       <div class="menu_toggle"></div>
+      <div class="profile">
+        <div class="imgBx">
+          <img src="user.jpg" />
+        </div>
+      </div>
     </div>
+
+    <script>
+      const menu_toggle = document.querySelector(".menu_toggle");
+      const navigation = document.querySelector(".navigation");
+      menu_toggle.onclick = function () {
+        navigation.classList.toggle("active");
+      };
+    </script>
   </body>
 </html>
